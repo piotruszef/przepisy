@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 27 Mar 2024, 12:08
+-- Czas generowania: 27 Mar 2024, 13:07
 -- Wersja serwera: 10.4.24-MariaDB
 -- Wersja PHP: 8.0.19
 
@@ -39,9 +39,8 @@ CREATE TABLE `przepis` (
 --
 
 INSERT INTO `przepis` (`id`, `title`, `ingredients`, `instructions`) VALUES
-(8, 'jebac', 'ci', 'mame'),
-(9, 'cos', 'asdsddssssssssssssssssssssssssssssssss', 'adsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsds'),
-(10, 'kutas w ciescie', 'sjsjdjdssddsdssdsd', 'dsdssddsdsdsdsdsdsdssd');
+(11, 'cos', 'jest', 'tu'),
+(12, 'mikolaj', 'cos', 'ten');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -61,7 +60,7 @@ ALTER TABLE `przepis`
 -- AUTO_INCREMENT dla tabeli `przepis`
 --
 ALTER TABLE `przepis`
-  MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
